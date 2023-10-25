@@ -1,0 +1,71 @@
+/***** Header ******/ 
+
+header{
+    height: 50px;
+    margin: 10px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header .navbar{
+    padding: 0;
+    background-color: white;
+}
+
+header .navbar-mobile-logo{
+    width: 35px;
+}
+
+header .navbar-mobile-logo img{
+    width: 100%;
+    margin-right: 35px;
+}
+
+header .navbar .container-fluid{
+    justify-content: flex-start;
+    height: 50px;
+}
+
+header .container-fluid ._ms-nav-search-bar{
+    flex-grow: 1;
+    position: relative;
+    margin-left: 10px;
+}
+
+header .container-fluid ._ms-nav-search-bar input::placeholder{
+    color: #828282;
+}
+
+header .container-fluid ._ms-nav-search-bar .form-control{
+    padding: 10px 1.25rem;
+    font-size: 0.75rem;
+    background-color: #e5e5e5;
+}
+
+
+header li{
+    list-style: none;
+}
+
+
+header #_ms-bell{
+    color: #ff8f00
+}
+
+header #_ms-lens{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    font-size: 13px;
+}
+
+
+/***** Body ******/ 
+
+
+/***** Footer ******/ 
+
+
+
