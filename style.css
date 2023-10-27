@@ -19,6 +19,7 @@ header{
     left: 0;
     right: 0;
     background-color: #f8f9fa;
+    overflow: hidden;
 }
 
 header ._ms-mobile-logo{
@@ -66,12 +67,13 @@ header .btn{
 header .btn i{
     color: #5b5858;
 }
+
 /***** Main ******/ 
 
 main{
     padding-top: 70px;
     padding-left: calc(100vw - 90%);
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 /***** Main - Sidebar ******/ 
@@ -103,4 +105,6 @@ main #_ms-badge{
     background-color: #165bba;
 }
 
-
+main .class-avatar-container{
+    width: 30px;
+}
