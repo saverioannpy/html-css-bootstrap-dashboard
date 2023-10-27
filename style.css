@@ -1,157 +1,106 @@
-/**** Common ****/
-.container{
-    padding: 0;
-    margin: 0;
-    display: flex ;
+/**** Debug ****/
+
+/**** Body ****/
+
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
-p{
+.container{
     margin: 0;
 }
-/***** Header e Navbar ******/ 
+
+/***** Header ******/ 
 
 header{
-    height: 50px;
-    margin: 10px 0px;
+    height: 70px;
     position: fixed;
-    top: 0;
+    top:0;
     left: 0;
     right: 0;
+    background-color: #f8f9fa;
 }
 
-header .navbar{
-    padding: 0;
-    background-color: white;
+header ._ms-mobile-logo{
+    width: 2.1875rem;
 }
 
-header .navbar-mobile-logo{
-    width: 35px;
+header ._ms-logo{
+   width: 132px;
 }
 
-header .navbar-mobile-logo img{
-    width: 100%;
-    margin-right: 35px;
+header ._ms-search-bar{
+    background-color: #ffffff;
+    margin-top: 0.625rem;
 }
 
-header .navbar .container-fluid{
-    justify-content: flex-start;
-    height: 50px;
+header ._ms-search-bar input{
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
 }
 
-header .container-fluid ._ms-nav-search-bar{
-    flex-grow: 1;
-    position: relative;
-    margin-left: 10px;
+header ._ms-search-bar input::placeholder{
+    font-size: 12px;
 }
 
-header .container-fluid ._ms-nav-search-bar input::placeholder{
-    color: #828282;
-}
-
-header .container-fluid ._ms-nav-search-bar .form-control{
-    padding: 10px 1.25rem;
-    font-size: 0.75rem;
+header ._ms-search-bar input:hover{
     background-color: #e5e5e5;
 }
 
-
-header li{
-    list-style: none;
+header #_ms-basic-addon1{
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
+    font-size: 12px;
+    padding-right: 0px;
+    padding-left: 8px;
 }
 
-
-header #_ms-bell{
-    color: #ff8f00
+header #_ms-dropdownMenuButton i{
+    color: #ff8f00;
 }
 
-header #_ms-lens{
-    position: absolute;
-    top: 10px;
-    left: 5px;
-    font-size: 13px;
+header .btn{
+    border: 0;
 }
 
-
+header .btn i{
+    color: #5b5858;
+}
 /***** Main ******/ 
 
 main{
-    padding-top: 60px;
+    padding-top: 70px;
+    padding-left: calc(100vw - 90%);
+    overflow-x: hidden;
 }
 
-
-/***** Main Sidebar *******/
-
-main .sidebar ul{
-    font-size: 10px;
-    list-style: none;
-    padding-left: 0px;
-    padding-top: 30px;
-}
-
-main .btn-settings{
-    font-size: 12px;
-    padding-left: 0px;
-    color: white;
-}
+/***** Main - Sidebar ******/ 
 
 main .sidebar{
-    background-color: #051e34;
-    width: 68px;
+    width: 10%;
     position: fixed;
-    top: 60px;
-    left: 0;
+    top: 70px;
     bottom: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}  
-
-main .sidebar li i{
-    color: white;
+    left: 0;
+    background-color: #051e34;
 }
 
-main .btn-settings i{
-    color: white;
-    margin-bottom: 30px;
+main .sidebar button:hover{  /* TO DO: METTERE BUTTON DENTRO UN DIV ED APPLICARE AD ESSO L'EFFETTO HOVER*/
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 0;
 }
 
-/****** Main: Dashboard ******/
-.dashboard{
-    margin-left: 68px;
-    background-color: #1b72e8;
+main .sidebar span,
+main .dashboard-header span{
+    font-size: 12px;
 }
 
-.dashboard-header{
-    padding-top: 30px;
-    color: white;
-}
+/***** Main - Dashboard - Header ******/ 
 
-#_ms-new-user{
-    font-size: 10px;
-    padding-left: 14px;
-    margin-bottom: 0;
-}
-
-#_ms-new-user i{
-    font-size: 20px;
-    padding-left: 20px;
-}
-
-#_ms-boolean-plan{
-    padding-left: 14px;
-    margin: 0;
-}
-
-#_ms-boolean-plan span{
+main #_ms-badge{
+    font-size: 8px;
+    border-radius: 20px;
     background-color: #165bba;
-    font-size: 7px;
 }
-
-#_ms-boolean-plan p span:nth-child(2){
-    background-color: transparent;
-}
-/***** Footer ******/ 
-
 
 
