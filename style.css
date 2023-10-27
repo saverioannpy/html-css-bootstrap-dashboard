@@ -15,6 +15,7 @@ body{
 header{
     height: 70px;
     position: fixed;
+    z-index: 99;
     top:0;
     left: 0;
     right: 0;
@@ -96,8 +97,6 @@ main .sidebar span,
 main .dashboard-header span{
     font-size: 12px;
 }
-
-/***** Main - Dashboard - Header ******/ 
 
 main #_ms-badge{
     font-size: 8px;
